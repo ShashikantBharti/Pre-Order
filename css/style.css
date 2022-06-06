@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+:root{
+    --primary-color: #2A9398;
+    --secondary-color: #737575;
+    --light-color: #F5FBFC;
+    --dark-color: #181A1B;
+    --no-color: transparent;
+}
+
+header{
+    background: url(../images/background_1.png) no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+ 
+.text-black {
+    color: black;
+}
+
+.btn-info {
+    background: url(../images/btn-bg.png) no-repeat center;
+    background-size: cover;
+}
+
+.btn-dark {
+    background: url(../images/bg-dark.png) no-repeat center;
+    background-size: cover;
+}
+
+.top-bar {
+    background: url(../images/bg-top.png) no-repeat center;
+    background-size: cover;
+}
+
+section#about {
+    background: url(../images/background_2.png) no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+section#menu .menu-list{
+    background: url(../images/background_3.png) no-repeat center;
+    background-size: cover;
+}
+
+section#support .support-text {
+    background: url(../images/bg-box.png) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
+
+section#call-store {
+    background: url(../images/background_2.png) no-repeat;
+    background-size: cover;
+    background-position: right;
+}
