@@ -53,7 +53,8 @@ section#menu .menu-list{
     background-size: cover;
 }
 
-section#support .support-text {
+section#support .support-text,
+.contact-form {
     background: url(../images/bg-box.png) no-repeat center;
     background-size: cover;
     height: 100vh;
@@ -63,4 +64,43 @@ section#call-store {
     background: url(../images/background_2.png) no-repeat;
     background-size: cover;
     background-position: right;
+}
+
+.counter-box {
+	display: block;
+	background: #f6f6f6;
+	padding: 40px 20px 37px;
+	text-align: center
+}
+
+.counter-box p {
+	margin: 5px 0 0;
+	padding: 0;
+	color: #909090;
+	font-size: 18px;
+	font-weight: 500
+}
+
+.counter-box i {
+	font-size: 60px;
+	margin: 0 0 15px;
+	color: #d2d2d2
+}
+
+.counter { 
+	display: block;
+	font-size: 32px;
+	font-weight: 700;
+	color: #666;
+	line-height: 28px
+}
+
+.counter-box.colored {
+      background: #3acf87;
+}
+
+.counter-box.colored p,
+.counter-box.colored i,
+.counter-box.colored .counter {
+	color: #fff
 }
